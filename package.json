@@ -1,0 +1,10 @@
+{
+  "name": "scamshield-offline-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline educational scam-awareness and fictional payment prototype",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "check": "node --check app/src/main/assets/web/engine.js && node --check app/src/main/assets/web/app.js"
+  }
+}
